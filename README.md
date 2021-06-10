@@ -3,13 +3,10 @@
 前端源码: [https://github.com/night-233/rent-house-admin](https://github.com/night-233/rent-house-admin)
 后端源码: [https://github.com/harry-xqb/rent-house](https://github.com/harry-xqb/rent-house)
 
-项目致力于打造一个完整的租房系统，采用现阶段流行技术实现。
-
 ## **项目介绍**
 rent-house 项目是一套模仿自如的租房系统，基于SpringBoot+Elasticsearch实现，采用Docker容器化部署。系统主要包含租房首页、房源搜索、房源展示、地图找房、房源周边检索、收藏栏、看房预约、用户中心、发布管理、账号管理等模块。
 
 ## 在线演示
-(由于个人经费原因，在线网址已经停机，麻烦大家使用docker方式进行本地部署, 见下文)
 租房网地址:  [http://house.touchfish.top](http://house.touchfish.top)  账号: 17811111111 密码: 123
 后端swiger接口地址:  [http://house.frp.touchfish.top/swagger-ui.html](http://house.frp.touchfish.top/swagger-ui.html)  账号: admin 密码: 123
 
@@ -93,7 +90,6 @@ kibana:  方便管理与查看elasticsearch（可以不安装）
 #### 技术问答
 
 ## <img src="http://qiniu.touchfish.top/qrcode.jpg" alt="qrcode"  width="200" height="200"/>
-
 
 
 ## 项目界面展示

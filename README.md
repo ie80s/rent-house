@@ -65,19 +65,10 @@ rent-house 项目是一套模仿自如的租房系统，基于SpringBoot+Elastic
 
 查看日志: `docker-compose logs -f`
 
-
 启动后即可访问租房网前端地址:  [http://localhost:8888 ](http://localhost:8888 )  
 后端接口文档地址: [http://localhost:8080/swagger-ui.html ](http://localhost:8080/swagger-ui.html )
 
 说明: 拉取镜像的过程可能比较慢，如果网络环境不好，不建议使用该方式。 另外不了解docker的同学需要先学习下Docker： [Docker官网](https://www.docker.com/)
-
-#### 前端开发学习
-
-对于想要学习前端的小伙伴， 只需以下几步即可启动前端项目
-
-1. clone前端源码([前端源码]([https://github.com/night-233/rent-house-admin](https://github.com/night-233/rent-house-admin)))
-2. 执行 yarn install
-3. 执行 yarn start 
 
 项目启动后默认打开: [localhost:3000](localhost:3000) 端口。 后端接口默认连接的是我个人服务器(可能有点慢)，如果使用了上面的Docker部署了开发环境，可在config-override.js中修改IP的地址为本地。
 
@@ -102,10 +93,6 @@ kibana:  方便管理与查看elasticsearch（可以不安装）
 #### 技术问答
 
 ## <img src="http://qiniu.touchfish.top/qrcode.jpg" alt="qrcode"  width="200" height="200"/>
-
-
-
-##  天涯何处无芳草，给颗星星好不好┭┮﹏┭┮
 
 
 
